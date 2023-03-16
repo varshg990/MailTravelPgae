@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="My  travel page">
+	<parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="testcases.MailTravelPageClass"/>
+
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test name="Rest API">
+    <classes>
+      <class name="testcases.RestApi"/>
+
+    </classes>
+  </test>
+    
+</suite> <!-- Suite -->
